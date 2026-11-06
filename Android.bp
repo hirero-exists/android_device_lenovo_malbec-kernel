@@ -1,0 +1,34 @@
+//
+// SPDX-FileCopyrightText: 2026 hirero-exists
+// SPDX-License-Identifier: Apache-2.0
+//
+
+kernel_headers {
+    name: "audio_kernel_headers",
+    vendor_available: true,
+    recovery_available: true,
+}
+
+kernel_headers {
+    name: "generated_kernel_headers",
+    vendor_available: true,
+    recovery_available: true,
+}
+
+kernel_headers {
+    name: "qti_audio_kernel_uapi",
+    vendor_available: true,
+    recovery_available: true,
+}
+
+kernel_headers {
+    name: "qti_display_kernel_headers",
+    vendor_available: true,
+    recovery_available: true,
+}
+
+kernel_headers {
+    name: "smmu_proxy_uapi_header",
+    vendor_available: true,
+    recovery_available: true,
+}
